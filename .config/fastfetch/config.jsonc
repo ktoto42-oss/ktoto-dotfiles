@@ -1,0 +1,22 @@
+{
+  "$schema": "https://github.com/",
+  "logo": {
+    "source": "arch_small",
+    "padding": {
+      "top": 1
+    }
+  },
+  "modules": [
+    "title",
+    "os",
+    "kernel",
+    "packages",
+    "shell",
+    "wm",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "disk"
+  ]
+}

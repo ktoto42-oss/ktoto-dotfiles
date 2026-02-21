@@ -1,0 +1,24 @@
+window#waybar {
+    background-color: rgba(24, 24, 24, 100); /* Базовый цвет Breeze Dark */
+    border-bottom: 2px solid #3b3b3b;
+    color: #72b9a9;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+}
+
+#workspaces button {
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    border-bottom: 5px;
+    color: #72b9a9;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray {
+    padding: 0 10px;
+    margin: 0 2px;
+}
+
